@@ -7,13 +7,15 @@ int main()
   int num1, num2;
   // Version 1 Updated
   cout << "SIMPLE CALCULATOR\n\n";
+
   string name;
   cout << "Input your name: ";
   getline(cin, name);
   cout << "Hi, " << name << "! Enjoy using the calculator!\n\n";
-  cout << "Input Number: ";
+
+  cout << "Input Number 1: ";
   cin >> num1;
-  cout << "Input Number: ";
+  cout << "Input Number 2: ";
   cin >> num2;
 
   cout << "The sum of " << num1 << " and " << num2 << " is " << num1 + num2;
